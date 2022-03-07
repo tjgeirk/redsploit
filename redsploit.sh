@@ -86,3 +86,6 @@ list=( \
     "wireshark" \
     "yara" \
 )
+for item in "${list[@]}" do;
+    apt install $item
+done
